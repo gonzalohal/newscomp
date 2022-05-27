@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <!-- Site Title-->
+    <title>NEWSCOMP</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/isotipo.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fira+Sans:300,600,800,800i%7COpen+Sans:300,400,400i">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--link rel="stylesheet" href="coso/scss/style.css">
+    <link rel="stylesheet" href="coso/style.css">
+    <link rel="stylesheet" href="coso/cs-skin-elastic.css"-->
+    <script src="coso/js/jquery.js"></script>
+  <script src="coso/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="coso/css/estilos.css">
+
+    <!--link rel="stylesheet" href="coso/style.css">
+    <link rel="stylesheet" href="coso/style.css.map.css"-->
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="cssload-container">
+        <svg class="filter" version="1.1">
+          <defs>
+            <filter id="gooeyness">
+              <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur"></fegaussianblur>
+              <fecolormatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness"></fecolormatrix>
+              <fecomposite in="SourceGraphic" in2="gooeyness" operator="atop"></fecomposite>
+            </filter>
+          </defs>
+        </svg>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+              <img src="images/logotipo.png">
+            </div>
+            <div class="col-lg-4"></div>
+          </div>
+        </div>
+        <div class="dots">
+          <div class="dot mainDot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Page-->
+    <div class="page">
+      <header class="page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px" data-lg-stick-up-offset="35px" data-body-class="rd-navbar-absolute">
+            <!-- RD Navbar Top Panel-->
+            <div class="rd-navbar-top-panel">
+              <div class="rd-navbar-top-panel__main">
+               
+              </div>
+            </div>
+            <div class="rd-navbar-inner rd-navbar-search-wrap">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logotipo.png" alt="" width="172" height="33"/></a></div>
+              </div>
+              <!-- RD Navbar Nav-->
+              <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+                <div class="rd-navbar-search_collapsable">
+                  <ul class="rd-navbar-nav">
+                    <li class="active"><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="Soporte.html">Soporte</a>
+                    </li>
+                    <li><a href="Noticias.html">Noticias</a>
+                    </li>
+                    <li><a href="contacts.html">Contáctanos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <svg class="defs">
+        <defs>
+          <lineargradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="50%" stop-color="#22ddf5">
+              <animate attributename="stop-color" values="<#22ddf5; #5348E2; #22ddf5" dur="5s" repeatcount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stop-color="#5348E2">
+              <animate attributename="stop-color" values="#5348E2; #22ddf5; #5348E2" dur="5s" repeatcount="indefinite"></animate>
+            </stop>
+          </lineargradient>
+        </defs>
+      </svg>
+      <div class="swiper-container swiper-slider" data-effect="frame-trapeze" data-loop="true" data-autoplay="5500" data-speed="1200" data-mousewheel="false" data-keyboard="true" data-frame-fill="url(#gradient1)">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/slider-slide-5-1920x1280.jpg);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption text-center context-dark">
+              <h1 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">SOPORTE TÉCNICO</h1>
+              <h3 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }"></h3>
+              <!--div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-primary button-shadow" href="#features" data-custom-scroll-to="features">See Features</a><a class="button button-black button-shadow" href="#">Buy template</a></div-->
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img" style="background-image: url(images/slider-slide-6-1920x986.jpg);" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"></div>
+            <div class="swiper-slide-caption context-dark">
+              <h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }"style="color: #4a4a4a;">PORTAL DE NOTICIAS<br class="d-none d-lg-block"></h2><!--a class="button button-primary button-shadow" href="#" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">Buy template</a-->
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-img"  data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }"><video controls autoplay="autoplay" controls muted loop style="width: 100%;visibility: visible;opacity: 1;">
+  <source src="images/video/video.mp4" style="width:100%;" type="video/mp4"></video></div>
+            <div class="swiper-slide-caption context-dark">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-7">
+                    <!--h2 data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">Built by geeks & used by humans</h2>
+                    <h5 class="text-width-2 block-centered" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">Element aims to satisfy real needs of real projects. We've got a pack of tools for that.</h5>
+                    <div class="group-lg group-middle" data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }"><a class="button button-black button-shadow" href="#features" data-custom-scroll-to="features">See Features</a><a class="button button-primary button-shadow" href="#">Buy template</a></div-->
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev linear-icon-chevron-left"></div>
+        <div class="swiper-button-next linear-icon-chevron-right"></div>
+      </div>
+      <section class="section-xs section-cta bg-gray-dark text-center text-md-left">
+        <div class="container">
+          <div class="row row-30 justify-content-between align-items-center">
+            <div class="col-12" style="text-align: center;">
+              <h4>¿Qué Ofrecemos?</h4>
+              <p>
+ESTA WEB ESTÁ ENFOCADA A INFORMAR, ORIENTAR Y AYUDAR A DIVERSOS USUARIOS INTERESADOS EN EL ENTORNO DE LA COMPUTACIÓN.</p>
+            </div>
+            <!--div class="col-12 col-md-4 text-md-right"><a class="button button-primary" href="about.html">Read more</a></div-->
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      
+        <div class="coso">
+              <div class="header-top"  style="text-align: center;">
+                  <div class="navegacion">
+                    <input type="search" placeholder="Buscar" id="inputBusqueda">
+                  </div>
+              </div>
+              <div class="search" id="search">
+                <table class="search-table" id="searchTable">
+                    <thead>
+                      <tr>
+                        <td></td>
+                      </tr>
+                    </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="index.html">Inicio</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="Soporte.html">Soporte</a></td></a>
+                    </tr>
+                    <tr>
+                      <td><a href="Noticias.html">Noticias</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="contacts.html">Contacto</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.adslzone.net/windows-10/solucionar-pantalla-azul-windows-10/" target="_blank">Pantalla azul</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.diarioinformacion.com/vida-y-estilo/tecnologia/2016/04/15/pc-arranca-debo/1750203.html" target="_blank">No prende mi pc</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.diarioinformacion.com/vida-y-estilo/tecnologia/2016/04/15/pc-arranca-debo/1750203.html" target="_blank">Mi pc no arranca</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=ZI8fhofPQ2Q" target="_blank">Salen lineas en la pantalla de mi computadora</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=YY3yI77rVAE" target="_blank">Como armar una computadora desde cero</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.profesionalreview.com/2019/01/26/saber-la-compatibilidad-de-componentes-de-mi-pc/" target="_blank">Compatibilidad componentes</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://amytronics.com/pantalla-con-lineas-horizontales/" target="_blank">Salen lineas en la pantalla de mi notebook</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://rootear.com/windows/portatil-no-enciende" target="_blank">No prende mi notebook</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=FakH31njf4o" target="_blank">Mi computadora no da imagen</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=t-Ybk_A9zVA" target="_blank">Como armar una computadora</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=ws2MKyXF4x0" target="_blank">Reflow</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=aIeDS33XAc8" target="_blank">Mi notebook no da imagen</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.youtube.com/watch?v=pL8KMkZ-oi4" target="_blank">Reballing</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.nvidia.com/es-la/" target="_blank">Nvidia</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="https://www.amd.com/es" target="_blank">AMD</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+               </div>
+              </div>
+
+
+
+
+
+
+
+      <!-- About us-->
+      
+      <!-- Our Services-->
+      
+
+
+      
+
+
+
+
+      <section class="section-md bg-gray-lighter text-center decor-text" data-content="">
+        <div class="container">
+          <div class="row justify-content-lg-center"> 
+            <div class="col-lg-10 col-xl-8">
+              <h4 class="heading-decorated">Enfoque</h4>
+              <!--p>ESTE SITIO CUENTA CON ALGUNAS LIMITACIONES EN EL ENTORNO DE SOPORTE, YA QUE SOLO SE TIENE EN CUENTA LOS SIGUIENTES ÍTEMS:</p-->
+            </div>
+          </div>
+          <div class="row row-50">
+            <div class="col-md-6 col-lg-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle blurb-circle_centered">
+                <div class="blurb-circle__icon"><span class="icon fab fa-windows"></span></div>
+                <p class="blurb__title">SOFTWARE</p>
+                <p>Trabajamos con el sistema operativo conocido como “WINDOWS”, ya que en la actualidad es el más utilizado y cercano para los usuarios.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle blurb-circle_centered">
+                <div class="blurb-circle__icon"><span class="icon fas fa-desktop"></span></div>
+                <p class="blurb__title">Aplicaciones</p>
+                <p>Los Ofimáticos (Word, Excel, Power Point, Outlook, OneDrive, OneNote, Skype) y el paquete de adobe (Photoshop, Lightroom, Illustrator, Premiere, After Effects, Acrobat, Dreamweaver, Media Encoder).</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <!-- Blurb circle-->
+              <article class="blurb blurb-circle blurb-circle_centered">
+                <div class="blurb-circle__icon"><span class="icon fas fa-microchip"></span></div>
+                <p class="blurb__title">HARDWARE</p>
+                <p>Contamos con información precisa y técnicos preparados en el entorno de las computadoras y notebooks.</p>
+              </article>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+     <section>
+        <div class="bg-decor d-flex align-items-center justify-content-center" data-parallax-scroll="{&quot;y&quot;: 70, &quot;x&quot;: 50, &quot;smoothness&quot;: 30}"><img src="images/bg-decor-10.png" alt=""/>
+        </div>
+        <div class="container">
+            <div class="row justify-content-lg-center">
+            <div class="col-lg-3"></div>   
+            <div class="col-lg-6">
+              <div style="text-align: center;">
+                <h4 style="padding: 40px 0px 0px 0px;">Noticias</h4>
+                <h5 style="padding: 40px 0px 0px 0px;">Michael Quesada</h5>
+                <p>-Increíble! ¡Usa la inteligencia artificial para restaurar tus fotos viejas o borrosas! Remini-</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jO2TwsP3i60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="Noticias.html"><p class="box-icon-image" style="text-align: center;">¡Ver mas Noticias!</p></a>
+              </div>
+            </div>
+            <div class="col-lg-3"></div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!--section class="section-md bg-gray-lighter text-center decor-text" data-content="Process">
+        <div class="container">
+          <h4 class="heading-decorated">Our working process</h4>
+          <div class="row row-30 justify-content-center">
+            <div class="col-sm-10 col-lg-6">
+              <img src="images/home-var-2-650x495.jpg" alt="" width="650" height="495"/><div class="swiper-slide-caption text-center context-dark"></div>
+            </div>
+            <div class="col-sm-10 col-lg-6">
+              <!-- Blurb circle->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon fab fa-windows"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Design creation</p>
+                    <p>Firstly, our designers create the concept of a template, which can be changed and modified.</p>
+                  </div>
+                </div>
+              </article>
+              <!-- Blurb circle->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon fas fa-desktop"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Development</p>
+                    <p>Then our developers begin to work on implementing the template’s final look and features.</p>
+                  </div>
+                </div>
+              </article>
+              <!-- Blurb circle->
+              <article class="blurb blurb-circle">
+                <div class="unit flex-row unit-spacing-md">
+                  <div class="unit-left">
+                    <div class="blurb-circle__icon"><span class="icon fas fa-microchip"></span></div>
+                  </div>
+                  <div class="unit-body">
+                    <p class="blurb__title heading-6">Testing</p>
+                    <p>Finally, our QA experts make sure that everything works perfectly just as you would expect.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section-->
+
+      <!-- portfolio-->
+      <section class="section-md bg-default text-center">
+        <div class="bg-decor d-flex align-items-center" data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}"><img src="images/bg-decor-6.png" alt=""/>
+        </div>
+        <div class="container">
+          <h4 class="heading-decorated">ALGUNAS REFERENCIAS</h4>
+          <div class="isotope-wrap row row-70">
+            <div class="col-sm-12">
+              <ul class="list-nav isotope-filters isotope-filters-horizontal">
+                <li><a class="active" data-isotope-filter="*" data-isotope-group="gallery" href="#">Todos</a></li>
+                <li><a data-isotope-filter="Category 2" data-isotope-group="gallery" href="#">Foros</a></li>
+                <li><a data-isotope-filter="Category 1" data-isotope-group="gallery" href="#">Youtube</a></li>
+              </ul>
+              <div class="isotope row" data-isotope-layout="fitRows" data-isotope-group="gallery">
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="https://www.youtube.com/user/quesadabrenes/featured" target="_blank"><img src="images/portfolio-3-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Michael Quesada</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="https://www.youtube.com/channel/UCk5P7-ZHAS8ddSEkUA2yXHA" target="_blank"><img src="images/portfolio-5-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Spartan Geek</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="images/slider-slide-14-1280x1920.jpg" data-lightgallery="item">
+                          <figure><img src="images/portfolio-2-418x315.jpg" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-picture"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                              <li>Web Design</li>
+                            </ul>
+                            <p class="heading-5 hover-top-element">Kreative Co.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Creative projects &amp; ideas</p><span class="icon arrow-right linear-icon-plus"></span>
+                          </div></a>
+                </div-->
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/portfolio-original-9-1920x1282.jpg" data-lightgallery="item">
+                          <figure><img src="images/portfolio-9-418x315.jpg" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-picture"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                              <li>Web Development</li>
+                            </ul>
+                            <p class="heading-5 hover-top-element">Architex</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Creative projects &amp; ideas</p><span class="icon arrow-right linear-icon-plus"></span>
+                          </div></a>
+                </div-->
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="images/portfolio-original-4-1920x1920.jpg" data-lightgallery="item">
+                          <figure><img src="images/portfolio-4-418x315.jpg" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-picture"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                              <li>Web Design</li>
+                            </ul>
+                            <p class="heading-5 hover-top-element">Colorful Studios</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Creative projects &amp; ideas</p><span class="icon arrow-right linear-icon-plus"></span>
+                          </div></a>
+                </div-->
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="https://www.adslzone.net/foro/paginas/informatica/" target="_blank"><img src="images/portfolio-20-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">ADSLZONE</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="https://www.elgrupoinformatico.com/foro/foros.html" target="_blank"><img src="images/portfolio-19-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">El Grupo Informático</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="https://www.youtube.com/channel/UC36xmz34q02JYaZYKrMwXng" target="_blank"><img src="images/portfolio-9-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Nate Gentile</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="https://www.youtube.com/channel/UC9eM3jqq5IfxbGHbuRR_jRw" target="_blank"><img src="images/portfolio-2-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Sfdx Show</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="https://www.youtube.com/channel/UC3C9dOKpyemQCCJqsYt3ySQ" target="_blank"><img src="images/portfolio-7-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Tortilla Squad</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="https://foro.geeknetic.es" target="_blank"><img src="images/portfolio-18-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">GEEKNETIC</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="https://www.youtube.com/channel/UCIIHM_DjF-4kSyUifxsnkuw" target="_blank"><img src="images/portfolio-1-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Proto</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div>
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/portfolio-original-6-1920x1539.jpg" data-lightgallery="item">
+                          <figure><img src="images/portfolio-6-418x315.jpg" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-picture"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                              <li>Web Development</li>
+                            </ul>
+                            <p class="heading-5 hover-top-element">EOC Ltd.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Creative projects &amp; ideas</p><span class="icon arrow-right linear-icon-plus"></span>
+                          </div></a>
+                </div-->
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/portfolio-original-7-1280x1920.jpg" data-lightgallery="item">
+                          <figure><img src="images/portfolio-7-418x315.jpg" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-picture"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                              <li>Web Development</li>
+                            </ul>
+                            <p class="heading-5 hover-top-element">SlabTek Inc.</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Creative projects &amp; ideas</p><span class="icon arrow-right linear-icon-plus"></span>
+                          </div></a>
+                </div-->
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 2"><a class="img-thumbnail-variant-3" href="images/portfolio-original-8-1920x1336.jpg" data-lightgallery="item">
+                          <figure><img src="images/portfolio-8-418x315.jpg" alt="" width="418" height="315"/>
+                          </figure>
+                          <div class="caption"><span class="icon hover-top-element linear-icon-picture"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                              <li>Web Development</li>
+                            </ul>
+                            <p class="heading-5 hover-top-element">TSB Studios</p>
+                            <div class="divider"></div>
+                            <p class="small hover-bottom-element">Creative projects &amp; ideas</p><span class="icon arrow-right linear-icon-plus"></span>
+                          </div></a>
+                </div-->
+                <!--div class="col-12 col-md-6 col-lg-4 isotope-item" data-filter="Category 1"><a class="img-thumbnail-variant-3" href="#"><img src="images/portfolio-3-418x315.jpg" alt="" width="418" height="315"/><span class="label-custom label-white">Link</span>
+                          <div class="caption"><span class="icon hover-top-element fab fa-youtube"></span>
+                            <ul class="list-inline-tag hover-top-element">
+                            </ul>
+                            <p class="heading-5 hover-top-element">Michael Quesada</p>
+                            <div class="divider"></div><span class="icon arrow-right linear-icon-arrow-right"></span>
+                          </div></a>
+                </div-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--section>
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                <div class="quote-centered__text">
+                  <p class="q">Element is perfect to display the members of your staff, team or working force. </p>
+                </div>
+                  <p class="quote-centered__cite">Adam Smith</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section-->
+
+      <section class="section-sm" style="background-color: #f8f8f8;">
+                <h4 style="text-align: center;">Soporte en vivo</h4>
+                <div class="quote-centered">
+                  
+                    <g>
+                      <path d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959             c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246             c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885              c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426             C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723             c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984              c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.52,0.545,3.551,1.635              s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426             s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508C21.773,3.539,24.844,1.524,29.039,0z"></path>
+                    </g>
+                  </svg>
+                  <div class="quote-centered__text">
+                    <p class="q">Del lado izquierdo se encuentra una burbuja flotante, la cual cuenta con un chat en vivo para facilitar la llegada de información y soporte técnico online.</p>
+                  </div>
+                  <p class="quote-centered__cite">NEWSCOMP</p>
+                </div>
+              </section>
+
+      <section>
+        <div class="container">
+          <h4 style="padding: 43px 0px 0px 0px;" class="text-center">SOPORTE TÉCNICO CERCANO</h4>
+            <div class="row">
+              <div class="col-lg-12">
+               <iframe style="padding: 0px 0px 20px 0px; width: 100%;" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d107183.58321655162!2d-68.84321315147953!3d-32.91172984112767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sservicio%20tecnico!5e0!3m2!1ses!2sar!4v1581198445535!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+      <footer class="footer-corporate bg-gray-darkest">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4"><a href="index.html"><img src="images/isotipo.ico" alt="" style="width: 30%;"></a></div>
+            <div class="col-md-4" style="text-align: center;padding-top: 2%;">
+              <ul class="list-inline-xxs" style="padding: 0px 0px 20px 0px;">
+                <li style="padding: 0px 20px 0px 0px;"><a class="icon icon-xxs icon-primary fa fa-facebook" style="font-size: xx-large;" href="https://www.facebook.com/newscomp.sa" target="_blank"></a></li>
+                <li style="padding: 0px 10px 0px 0px;"><a class="icon icon-xxs icon-primary fa fa-twitter" style="font-size: xx-large;" href="#" target="_blank"></a></li>
+                <!--li><a class="icon icon-xxs icon-primary fa fa-google-plus" href="#"></a></li-->
+                <!--li><a class="icon icon-xxs icon-primary fa fa-vimeo" href="#"></a></li-->
+                <li><a class="icon icon-xxs icon-primary fa fa-youtube" style="font-size: xx-large;" href="https://www.youtube.com/channel/UCES7ujcX91DQeqQN92RI9uA?view_as=subscriber" target="_blank"></a></li>
+                <!--li><a class="icon icon-xxs icon-primary fa fa-pinterest" href="#"></a></li-->
+              </ul>
+            </div>
+            <div class="col-md-4" style="text-align: center; padding-top: 2%;">
+              <p class="rights"><span><a href="index.html" style="color: aqua;">NEWSCOMP</a></span><span>&nbsp;</span><span class="copyright-year"></span>. © Yoursite 2019 All right reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    
+
+
+    <script src="coso/js/buscador.js"></script>
+
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/a5788c72b7ec2f3c501974c39a911a3d85a76e86a72579bc57b7fd8f67b79319.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
